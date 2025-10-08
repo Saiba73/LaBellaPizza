@@ -48,10 +48,15 @@ body {
     cursor: pointer;
 }
 
+a{
+    margin: auto;
+    text-decoration: none;
+    color: var(--rojo_principal);
+}
+
 .button{
     width: 15%;
     height: 30%;
-    color: var(--rojo_principal);
     background-color: var(--blanco);
     border-style: solid;
     border-color: var(--negro);
@@ -60,4 +65,10 @@ body {
     padding-top: 12px;
     font-size: xx-large;
     margin: auto;
+}
+
+.button:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px var(--negro);
+    margin-bottom: 50px;
 }
