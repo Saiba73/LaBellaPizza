@@ -60,7 +60,7 @@ a{
     background-color: var(--blanco);
     border-style: solid;
     border-color: var(--negro);
-    border-width: 2px;
+    border-width: 5px;
     text-align: center;
     padding-top: 12px;
     font-size: xx-large;
@@ -71,4 +71,21 @@ a{
     cursor: pointer;
     text-shadow: 2px 2px var(--negro);
     margin-bottom: 50px;
+}
+
+#texto_principal{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 70%;
+    font-size: 70px;
+    columns: var(--rojo_principal);
+    color: var(--rojo_principal);
+    text-shadow:
+    1px 1px 2em var(--negro),
+    0 0 2em var(--negro),
+    0 0 2em var(--negro);
+}
+
+#boton_admin{
+    display: none;
 }
