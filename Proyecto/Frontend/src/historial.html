@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>La Bella Pizza</title>
+  </head>
+  <body>
+    <div id="nav_bar">
+      <a href="./index.html"><img src="./assets/Logo_SVG.svg" /></a>
+      <div class="button gabriela-regular">
+        <a href="">Ordena</a>
+      </div>
+      <div class="button gabriela-regular">
+        <a href="">Historial</a>
+      </div>
+      <div class="button gabriela-regular" id="boton_admin">
+        <a href="">Administrador</a>
+      </div>
+      <a href=""
+        ><img
+          src="./assets/user_log_in_SVG.svg"
+          style="height: 10vh; margin: auto"
+      /></a>
+    </div>
+    <div id="Contenedor_ordenes gabriela">
+      <div class="plantilla_orden">
+        <div class="plantilla_precio">Precio:</div>
+        <div class="plantilla_tamano">Tamano:</div>
+        <div class="plantillla_ingredientes">Ingredientes:</div>
+        <div class="plantilla_guarnicion">Guarnicion:</div>
+        <input type="button" value="Editar" class="boton_Editar" />
+        <input type="button" value="Cancelar" class="boton_cancelar" />
+      </div>
+    </div>
+    <canvas id="fondo3D"></canvas>
+  </body>
+  <script type="module" src="./js/index.js"></script>
+</html>
