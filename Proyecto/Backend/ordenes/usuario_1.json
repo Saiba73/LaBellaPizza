@@ -1,0 +1,22 @@
+{
+    "ordenes": [
+        {
+            "orden_id": 1,
+            "Precio": 300,
+            "Tamaño": "G",
+            "Igredientes": [
+                "peperoni", "Chorizo", "Olivos"
+            ],
+            "Guarnicion": "Alitas"
+        },
+        {
+            "orden_id": 1,
+            "Precio": 500,
+            "Tamaño": "M",
+            "Igredientes": [
+                "Queso", "Longuiza", "Ballas"
+            ],
+            "Guarnicion": "Ensalada"
+        }
+    ]
+}
