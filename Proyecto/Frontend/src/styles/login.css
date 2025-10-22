@@ -1,0 +1,64 @@
+:root {
+  --negro: #000000;
+  --rojo_principal: #FF3D3D;
+  --blanco: #ffffff;
+}
+
+#Contenedor_login{
+    width: 35%;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--rojo_principal);
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--rojo_principal);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--negro);
+    
+
+}
+
+#Contenedor_login b{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    font-size: xx-large;
+}
+
+#Contenedor_login p{
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--negro);
+    text-decoration: none;
+}
+
+#input_usuario, #input_contrasena{
+    height: 25px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--negro);
+}
+
+#btn_login{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: var(--blanco);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--negro);
+}
+
+#btn_login:hover{
+    cursor: pointer;
+}

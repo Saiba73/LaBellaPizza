@@ -33,7 +33,7 @@ body {
     height: 8vw;
     background-color: var(--rojo_principal);
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-color: var(--negro);
     display: flex;
 }
@@ -41,7 +41,7 @@ body {
 #nav_bar img{
     margin: 0;
     float: left;
-    height: 16vh;
+    height: 12vh;
 }
 
 #nav_bar img:hover{
@@ -55,14 +55,14 @@ a{
 }
 
 .button{
-    width: 15%;
-    height: 30%;
+    width: 12%;
+    height: 23%;
     background-color: var(--blanco);
     border-style: solid;
     border-color: var(--negro);
-    border-width: 5px;
+    border-width: 2px;
     text-align: center;
-    padding-top: 12px;
+
     font-size: xx-large;
     margin: auto;
 }
@@ -74,16 +74,24 @@ a{
 }
 
 #texto_principal{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 70%;
-    font-size: 70px;
-    columns: var(--rojo_principal);
-    color: var(--negro);
-    text-shadow:
+    width: 60%;
+    height: 300px;
+    background-color: var(--blanco);
+    border-style: solid;
+    border-color: var(--negro);
+    border-width: 2px;
+    text-align: center;
+
+    font-size: 250%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 10%;
+    /* text-shadow:
     1px 1px 2em var(--negro),
     0 0 2em var(--negro),
-    0 0 2em var(--negro);
+    0 0 2em var(--negro); */
 }
 
 #boton_admin{
@@ -91,7 +99,7 @@ a{
 }
 
 #Contenedor_ordenes{
-
+    
 }
 
 .plantilla_orden{
@@ -99,7 +107,7 @@ a{
     margin: auto;
     margin-top: 30px;
     border-color: var(--negro);
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
     width: 90%;
     height: 50px;

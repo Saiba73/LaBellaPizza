@@ -20,9 +20,9 @@ import * as THREE from 'three'
 });
 
   const geometriaCubo = new THREE.BoxGeometry( 0.5, 0.5, 0.5)
-  const materialBlanco = new THREE.MeshLambertMaterial()
+  const materialBlanco = new THREE.MeshToonMaterial()
   //materialBlanco.color.set(0xFFFFFF)
-  const materialRojo = new THREE.MeshLambertMaterial()
+  const materialRojo = new THREE.MeshToonMaterial()
   materialRojo.color.set(0xFF3D3D)
   
   /*
@@ -61,7 +61,7 @@ import * as THREE from 'three'
   
 
   const spotLight = new THREE.SpotLight( 0xffffff )
-  spotLight.position.set( 0, 6, 5 )
+  spotLight.position.set( 0, 6, 7 )
   spotLight.intensity = 500
   escena.add( spotLight )
 
@@ -75,8 +75,8 @@ import * as THREE from 'three'
     requestAnimationFrame(renderizar);
     for(let i = 0; i < arreglo_cubos_rojos.length; i++)
     {
-      arreglo_cubos_rojos[i].position.z = Math.sin(time * 0.001 + i * 0.2) * 0.3
-      arreglo_cubos_blancos[i].position.z = Math.cos(time * 0.001 + i * 0.2) * 0.3
+      arreglo_cubos_rojos[i].position.z = Math.sin(time * 0.001 + i * 0.2) * 0.1
+      arreglo_cubos_blancos[i].position.z = Math.cos(time * 0.001 + i * 0.2) * 0.1
     }
     render.setSize(window.innerWidth, window.innerHeight)
     render.render(escena, camara)

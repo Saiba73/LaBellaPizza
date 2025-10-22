@@ -1,0 +1,162 @@
+/* tipografia titulos */
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+.gabriela-regular {
+  font-family: "Gabriela", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --negro: #000000;
+  --rojo_principal: #ff3d3d;
+  --blanco: #ffffff;
+}
+
+#titulo {
+  background-color: var(--blanco);
+  width: 30%;
+  height: 75px;
+  margin-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--negro);
+  color: var(--rojo_principal);
+}
+
+#titulo b {
+  font-size: 50px;
+  margin-top: 8%;
+}
+
+#contenedor_ingredientes {
+  width: 25%;
+  height: 100%;
+  margin-left: 5%;
+  margin-top: 1%;
+  background-color: var(--rojo_principal);
+  text-align: center;
+}
+
+#Titulo_Ingredientes {
+  border-color: var(--negro);
+  border-width: 2px;
+  border-style: solid;
+  font-size: xx-large;
+  height: 100%;
+  color: var(--blanco);
+}
+
+.ingrediente {
+  border-color: var(--negro);
+  border-width: 1px;
+  border-style: solid;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+  height: 80px;
+}
+
+#visor_de_pizza {
+  position: absolute;
+  width: 550px;
+  height: 45%;
+  left: 35%;
+  bottom: 5%;
+  background-color: black;
+}
+
+#tamanos_contenedor {
+  background-color: var(--blanco);
+  margin-top: 2%;
+  margin-left: 32%;
+  width: 35%;
+  color: var(--rojo_principal);
+
+  border-color: var(--negro);
+  border-width: 2px;
+  border-style: solid;
+}
+
+#tamanos_contenedor b {
+  font-size: xx-large;
+  margin-left: 34%;
+}
+
+#contendor_radio {
+  display: flex;
+  font-size: x-large;
+  width: 75%;
+  margin-top: 2%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#radio_tamano {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#radio_tamano input[type="radio"] {
+  cursor: pointer;
+}
+
+#contenedor_guarniciones{
+  width: 20%;
+  height: 30%;
+  background-color: white;
+  position: fixed;
+  left: 70%;
+  bottom: 19%;
+
+  font-weight: bold;
+  color: var(--rojo_principal);
+
+  border-color: var(--negro);
+  border-width: 2px;
+  border-style: solid;
+}
+
+#titulo_guarniciones{
+  font-size: xx-large;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#radio_guarnicion{
+  text-align: center;
+}
+
+#radio_guarnicion input,label{
+  margin-top: 5%;
+}
+
+#contenedor_total{
+  background-color: var(--blanco);
+  border-color: var(--negro);
+  border-width: 2px;
+  border-style: solid;
+  width: 20%;
+  height: 10%;
+  background-color: white;
+  position: fixed;
+  left: 70%;
+  bottom: 7%;
+  text-align: center;
+}
+
+#contenedor_total #titulo_total{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#contenedor_total #cantidad_total{
+  font-size: large;
+}
+
+#contenedor_total #btn_confirmar{
+  
+}

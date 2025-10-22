@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 3373 3628" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(5.55556,0,0,5.55556,0,0)">
-        <g id="Artboard1" transform="matrix(1,0,0,1,-658.605,-227.442)">
+    <g id="Artboard1" transform="matrix(5.55556,0,0,5.55556,-3658.92,-1263.57)">
+        <g>
             <rect x="658.605" y="227.442" width="606.977" height="653.023" style="fill:none;"/>
             <g id="Crest" transform="matrix(3.3574,0,0,3.29017,-965.531,-491.695)">
                 <g id="Crest-Base" serif:id="Crest Base" transform="matrix(1.08169,0,0,1.08169,-138.202,-36.6504)">
@@ -51,49 +51,49 @@
                 </g>
             </g>
             <g transform="matrix(2.29683,0,0,2.29683,-1309.15,-36.4683)">
-                <path d="M897.794,167.143C897.794,167.143 982.948,112.422 1080.1,167.143" style="fill:none;stroke:black;stroke-width:1.31px;"/>
+                <path d="M897.794,167.143C897.794,167.143 982.948,112.422 1080.1,167.143" style="fill:none;stroke:black;stroke-width:1.88px;"/>
             </g>
             <g transform="matrix(1.65998,0,0,-1.65998,-677.339,1050.24)">
-                <path d="M897.794,167.143C897.794,167.143 982.948,112.422 1080.1,167.143" style="fill:none;stroke:black;stroke-width:1.81px;"/>
+                <path d="M897.794,167.143C897.794,167.143 982.948,112.422 1080.1,167.143" style="fill:none;stroke:black;stroke-width:2.6px;"/>
             </g>
             <g transform="matrix(2.27971,0.279913,-0.279913,2.27971,-1202.05,-326.285)">
                 <g transform="matrix(0.923719,-0.383071,0.383071,0.923719,912.096,165.902)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">L</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">L</text>
                 </g>
                 <g transform="matrix(0.953701,-0.300755,0.300755,0.953701,925.848,160.137)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">A</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
                 </g>
                 <g transform="matrix(0.982364,-0.186976,0.186976,0.982364,948.945,153.303)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">B</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">B</text>
                 </g>
                 <g transform="matrix(0.994513,-0.104611,0.104611,0.994513,964.533,150.367)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">E</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">E</text>
                 </g>
                 <g transform="matrix(0.999742,-0.022735,0.022735,0.999742,979.595,148.796)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">L</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">L</text>
                 </g>
                 <g transform="matrix(0.998305,0.0582075,-0.0582075,0.998305,994.123,148.459)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">L</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">L</text>
                 </g>
                 <g transform="matrix(0.988442,0.151597,-0.151597,0.988442,1009.02,149.258)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">A</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
                 </g>
             </g>
             <g transform="matrix(2.29543,-0.0801582,0.0801582,2.29543,-1334.01,-11.3126)">
                 <g transform="matrix(0.973292,0.229572,-0.229572,0.973292,948.549,410.99)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">P</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">P</text>
                 </g>
                 <g transform="matrix(0.986398,0.164374,-0.164374,0.986398,963.124,414.27)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">I</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">I</text>
                 </g>
                 <g transform="matrix(0.996511,0.0834663,-0.0834663,0.996511,970.63,415.654)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">Z</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">Z</text>
                 </g>
                 <g transform="matrix(0.999744,-0.0226076,0.0226076,0.999744,986.291,416.968)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">Z</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">Z</text>
                 </g>
                 <g transform="matrix(0.990001,-0.141063,0.141063,0.990001,1002.26,416.664)">
-                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;">A</text>
+                    <text x="0px" y="0px" style="font-family:'Gabriola', fantasy;font-size:36px;stroke:black;stroke-width:1.02px;stroke-linecap:butt;stroke-miterlimit:2;">A</text>
                 </g>
             </g>
         </g>
