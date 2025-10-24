@@ -60,11 +60,11 @@
 
 #visor_de_pizza {
   position: absolute;
-  width: 550px;
-  height: 45%;
+  /* width: 550px;
+  height: 550px; */
   left: 35%;
   bottom: 5%;
-  background-color: black;
+  /* background-color: black; */
 }
 
 #tamanos_contenedor {
