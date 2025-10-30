@@ -6,43 +6,89 @@
     <title>La Bella Pizza</title>
   </head>
   <body>
+    <div id="crear_cuenta_advertencia" class="gabriela-regular">
+      <div id="texto_principal">
+        <p>
+          Parece que no has iniciado session. Inicia sesion o crea una cuenta
+          para hacer una orden
+        </p>
+        <input
+          type="button"
+          value="Crear Cuenta"
+          id="advertencia_crear_cuenta_btn"
+          class="button gabriela-regular texto_btn"
+          style="
+            margin-left: 16%;
+            margin-right: auto;
+            margin-top: 2%;
+            width: 25%;
+            height: 15%;
+          "
+        />
+        <input
+          type="button"
+          value="Iniciar Session"
+          id="boton_iniciar_session"
+          class="button gabriela-regular texto_btn"
+          style="
+            margin-left: 16%;
+            margin-right: auto;
+            margin-top: 2%;
+            width: 25%;
+            height: 15%;
+          "
+        />
+      </div>
+    </div>
     <div id="nav_bar">
       <a href="./index.html"><img src="./src/assets/Logo_SVG.svg" /></a>
-      <div class="button gabriela-regular">
-        <a href="./src/ordenar.html">Ordena</a>
-      </div>
-      <div class="button gabriela-regular">
-        <a href="./src/historial.html">Historial</a>
-      </div>
-      <div class="button gabriela-regular" id="boton_admin">
-        <a href="">Administrador</a>
-      </div>
+      <input
+        type="button"
+        value="Ordena"
+        id="btn_ordena"
+        class="button gabriela-regular texto_btn"
+      />
+      <input
+        type="button"
+        value="Historial"
+        id="btn_historial"
+        class="button gabriela-regular texto_btn"
+      />
+      <input
+        type="button"
+        value="Administrador"
+        id="boton_admin"
+        class="button gabriela-regular texto_btn"
+      />
       <a href="./src/login.html"
         ><img
           src="./src/assets/user_log_in_SVG.svg"
           style="height: 8vh; margin: auto"
       /></a>
     </div>
+
     <div class="gabriela-regular" id="texto_principal">
       <p style="margin-left: 3%; margin-right: 3%; margin-top: 2%">
         En La Bella Pizza puedes ordenar una pizza con hasta 3 ingredientes una
         bebida y guarnicion. Solo crea una cuenta para empezar a ordenar.
       </p>
-      <div
-        class="button gabriela-regular"
+      <input
+        type="button"
+        value="Crear Cuenta"
+        id="boton_crear_cuenta"
+        class="button gabriela-regular texto_btn"
         style="
           margin-left: auto;
           margin-right: auto;
-          margin-top: 4%;
+          margin-top: 2%;
           width: 20%;
           height: 15%;
         "
-      >
-        <a href="./src/login.html">Crear Cuenta</a>
-      </div>
+      />
     </div>
 
     <canvas id="fondo3D"></canvas>
   </body>
+  <script type="module" src="./src/js/index_gestion_btn.js"></script>
   <script type="module" src="./src/js/index.js"></script>
 </html>

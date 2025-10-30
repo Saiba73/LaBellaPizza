@@ -1,0 +1,10 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "admin": true,
+            "nombre": "jesus",
+            "contrasena": "1234"
+        }
+    ]
+}

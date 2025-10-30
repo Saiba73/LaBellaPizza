@@ -39,7 +39,7 @@ body {
 }
 
 #nav_bar img{
-    margin: 0;
+    margin: auto;
     float: left;
     height: 12vh;
 }
@@ -48,15 +48,16 @@ body {
     cursor: pointer;
 }
 
-a{
+.texto_btn{
     margin: auto;
     text-decoration: none;
     color: var(--rojo_principal);
 }
 
+
 .button{
     width: 12%;
-    height: 23%;
+    height: 27%;
     background-color: var(--blanco);
     border-style: solid;
     border-color: var(--negro);
@@ -70,7 +71,6 @@ a{
 .button:hover{
     cursor: pointer;
     text-shadow: 2px 2px var(--negro);
-    margin-bottom: 50px;
 }
 
 #texto_principal{
@@ -97,6 +97,37 @@ a{
 #boton_admin{
     display: none;
 }
+
+#crear_cuenta_advertencia{
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #0000005b;
+    color: var(--blanco);
+}
+
+#crear_cuenta_advertencia #texto_principal{
+    background-color: var(--rojo_principal);
+    width: 50%;
+    height: 55%;
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#crear_cuenta_advertencia #texto_principal p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 #Contenedor_ordenes{
     

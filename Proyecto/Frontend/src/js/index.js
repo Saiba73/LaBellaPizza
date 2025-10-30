@@ -1,5 +1,7 @@
 import * as THREE from 'three'
 
+
+//Cosas Para el 3D
   const canvas = document.querySelector('#fondo3D')
   canvas.width = window.innerWidth
   canvas.height = window.innerHeight
@@ -24,17 +26,6 @@ import * as THREE from 'three'
   //materialBlanco.color.set(0xFFFFFF)
   const materialRojo = new THREE.MeshToonMaterial()
   materialRojo.color.set(0xFF3D3D)
-  
-  /*
-  let cubos_blancos = new THREE.Mesh(geometriaCubo, materialBlanco)
-  cubos_blancos.position.x = -4.2
-  cubos_blancos.position.y = 2
-  let cubos_rojos = new THREE.Mesh(geometriaCubo, materialRojo)
-  cubos_rojos.position.x = 0.55
-
-  escena.add(cubos_rojos)
-  escena.add(cubos_blancos)
-  */
 
   let arreglo_cubos_rojos = new Array()
   let arreglo_cubos_blancos = new Array()
@@ -59,17 +50,10 @@ import * as THREE from 'three'
     }
   }
   
-
   const spotLight = new THREE.SpotLight( 0xffffff )
   spotLight.position.set( 0, 6, 7 )
   spotLight.intensity = 500
   escena.add( spotLight )
-
-  /*
-  const spotLightHelper = new THREE.SpotLightHelper( spotLight )
-  escena.add( spotLightHelper )
-  */
-
 
   const renderizar = (time) => {
     requestAnimationFrame(renderizar);
