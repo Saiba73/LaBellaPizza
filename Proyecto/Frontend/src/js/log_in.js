@@ -18,10 +18,11 @@ btn_login.addEventListener("click", () => {
     if (recurso.status === 200) {
       recurso.json().then((respuesta) => {
         sessionStorage.setItem("id", respuesta.id);
+        sessionStorage.setItem("user_name", respuesta.user)
         sessionStorage.setItem("admin", respuesta.admin);
         sessionStorage.setItem("token", respuesta.token_acceso);
         console.log("JKLJDLKFJSLKF2");
-        window.location.href = "index.html";
+        window.location.href = "/index.html";
       });
     } else {
       recurso.json().then((respuesta) => {
